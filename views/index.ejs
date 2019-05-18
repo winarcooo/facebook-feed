@@ -1,0 +1,9 @@
+<% if (!user) { %>
+  <div class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="false"></div>
+  <div style="width:500px;height:180px;">
+    <h2 style="font-size:40px;">Please log in.</h2>
+    <a href="/auth/facebook">Login</a>
+    </div>
+<% } else { %>
+    <h2>Hello, <%= user.displayName %>.</h2>
+<% } %>
