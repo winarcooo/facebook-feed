@@ -7,6 +7,17 @@ Example GET facebook feed using nodeJS
 Use the package manager 
 
 ```bash
+# Get the latest snapshot
+git clone git@github.com:winarcooo/facebook-feed.git
+
+# Change directory
+cd facebook-feed
+
+# Install NPM dependencies
+npm install
+
+# Then simply start your app
+docker-compose up
 
 ```
 
