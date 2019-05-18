@@ -1,5 +1,7 @@
 # Facebook-Feed
 
+[![CircleCI](https://circleci.com/gh/winarcooo/facebook-feed/tree/master.svg?style=svg)](https://circleci.com/gh/winarcooo/facebook-feed/tree/master)
+
 Example GET facebook feed using nodeJS
 
 ## Installation
