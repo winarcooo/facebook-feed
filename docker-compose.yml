@@ -1,0 +1,17 @@
+version: "3"
+services:
+  app:
+    container_name: facebook-feed
+    image: node:10
+    user: node
+    working_dir: "/var/www/app"
+    networks:
+    - app
+    ports:
+    - "3000:3000"
+    volumes:
+    - ./:/var/www/app
+    command: "npx pm2 start ecosystem.config.js --no-daemon"
+
+networks:
+  app:
