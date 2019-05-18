@@ -4,4 +4,4 @@ const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => res.send(`it's works!`))
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+module.exports = app.listen(port, () => console.log(`Example app listening on port ${port}!`))
