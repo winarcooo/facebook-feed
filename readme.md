@@ -2,7 +2,13 @@
 
 [![CircleCI](https://circleci.com/gh/winarcooo/facebook-feed/tree/master.svg?style=svg)](https://circleci.com/gh/winarcooo/facebook-feed/tree/master)
 
-Example GET facebook feed using nodeJS
+Example GET facebook feed using nodeJS. [demo](https://alpha-centaury.herokuapp.com/)
+
+## Prerequisites
+
+* Git
+* docker
+* docker-compose
 
 ## Installation
 
