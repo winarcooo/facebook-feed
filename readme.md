@@ -21,17 +21,20 @@ npm install
 # Then simply start your app
 docker-compose up
 
+# Open browser hit localhost:3000
+
 ```
 
 ## Usage
 
-```python
+```bash
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Deployment
 
-Please make sure to update tests as appropriate.
+This project deployment using circleCI and Heroku as example production enviroment.
+[circleCI github integration](https://medium.com/meshstudio/continuous-integration-with-circleci-and-nodejs-44c3cf0074a0)
+[circleCI heroku integration](https://circleci.com/docs/2.0/deployment-integrations/#heroku)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
