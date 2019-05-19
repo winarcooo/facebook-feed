@@ -81,4 +81,4 @@ function ensureAuthenticated(req, res, next) {
   res.redirect('/')
 }
 
-module.exports = app.listen(3000);
+module.exports = app.listen(process.env.PORT);
