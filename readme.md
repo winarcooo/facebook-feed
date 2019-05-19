@@ -33,7 +33,9 @@ docker-compose up
 ## Deployment
 
 This project deployment using circleCI and Heroku as example production enviroment.
+
 [circleCI github integration](https://medium.com/meshstudio/continuous-integration-with-circleci-and-nodejs-44c3cf0074a0)
+
 [circleCI heroku integration](https://circleci.com/docs/2.0/deployment-integrations/#heroku)
 
 ## License
