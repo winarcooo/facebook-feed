@@ -24,6 +24,8 @@ cd facebook-feed
 # Install NPM dependencies
 npm install
 
+# Update .env file with own credentials
+
 # Then simply start your app
 docker-compose up
 
@@ -33,8 +35,7 @@ docker-compose up
 
 ## Usage
 
-```bash
-```
+point to http://localhost:3000
 
 ## Deployment
 
